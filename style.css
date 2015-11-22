@@ -176,6 +176,69 @@
 		background: none;
 	}
 
+	.action_intro {
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.action_intro_inner {
+		width: 60%;
+		display: block;
+		float: right;
+		text-align: left;
+	}
+
+	.action_photo {
+		width: 301px;
+	}
+
+	.btn{
+		clear: both;
+		width: auto;
+		display: block;
+		margin: 0 auto;
+		padding:10px 30px;
+		border:5px solid #000;
+		border-radius: 0px 8px 0px 8px;
+		color: #ffffff;
+		background: #000;
+		font-size: 22px;
+		background-image: url(img/arrow_right.gif);
+		background-position: 90% 50%;
+		background-repeat: no-repeat;
+	}
+
+	a.btn{
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.btn:hover, .btn:focus {
+		background: #4d4d4d;
+		border:5px solid #4d4d4d;
+		border-radius: 0px 8px 0px 8px;
+		color: #fff;
+		background-image: url(img/arrow_right.gif);
+		background-position: 90% 50%;
+		background-repeat: no-repeat;
+	}
+
+	.more {
+		float: right;
+	}
+
+	.action_btn {
+		background-image: url(img/bg_concretely_b.png);
+	}
+
+	.action_btn a{
+		text-align: center;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+
 /* for max-width 768px */
 
 	@media only screen and (max-width: 768px) {
